@@ -208,10 +208,13 @@ banner starts
     padding-right: 10px;
 }
 
-.banner-bg .banner .banner-text .btn1 h2{
+.banner-bg .banner .banner-text .btn1 h4{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     float: left;
+    margin-top: 7px;
+    color: white;
 }
 
 .banner-bg .banner .banner-text .btn1 h3{
@@ -235,11 +238,13 @@ banner starts
     padding-right: 10px;
 }
 
-.banner-bg .banner .banner-text .btn2 h2{
+.banner-bg .banner .banner-text .btn2 h4{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     float: left;
     color: #353535;
+    margin-top: 7px;
 }
 
 .banner-bg .banner .banner-text .btn2 h3{
