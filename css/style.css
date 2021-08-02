@@ -542,7 +542,7 @@ price
     width: 270px;
     height: 438px;
     /* background-color: #f1f1f1 */
-    border-radius: 5%;
+    border-radius: 20px;
     overflow: hidden;
     position: relative;
     margin-top: 60px;
@@ -743,4 +743,385 @@ price
     left: 90px;
     bottom: 10px;
     background-color: #744fa0;
+}
+
+
+/*=======================================
+team
+=========================================*/
+
+.team-bg{
+    /* background-color: aqua; */
+    height: 765px;
+}
+
+.team-bg .team{
+    text-align: center;
+    height: 765px;
+    /* background-color: aquamarine; */
+    
+}
+
+.team-bg .team h1{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.team-bg .team .team-item{
+    height: 765px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.team-bg .team .team-item .team-item-box{
+    width: 373px;
+    height: 373px;
+    /* background-color: silver; */
+    border-radius: 4%;
+    overflow: hidden;
+    margin-top: 85px;
+}
+
+.team-bg .team .team-item .team-item-box-2{
+    width: 370px;
+    height: 545px;
+    /* background-color: silver; */
+    border-radius: 4%;
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+} 
+
+.team-bg .team .team-item .team-item-box-2 .team-box-2-img{
+    background: url(../images/team2.jpg) no-repeat center / cover;
+    width: 370px;
+    height: 370px;
+    position: relative;
+    z-index: 1;
+}
+.team-bg .team .team-item .team-item-box-2 .team-box-2-img .team-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    padding-top: 160px;
+    margin: 0 auto;
+}
+
+
+.team-bg .team .team-item .team-item-box-2 .team-box-2-img::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.678);
+    z-index: -1;
+}
+
+.team-bg .team .team-item .team-item-box-2 .team-box-2-img a{
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    transition: all ease 0.4s;
+}
+
+
+.team-bg .team .team-item .team-item-box-2 .team-box-2-img i{
+    color: #353535;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-bg .team .team-item .team-item-box-2 .team-box-2-img a:hover{
+    background-color: #1da1f2;
+}
+
+
+/* .team-bg .team .team-item .team-item-box-2 img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.637);
+} */
+
+.team-bg .team .team-item .team-item-box-2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #353535;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.team-bg .team .team-item .team-item-box-2 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.team-bg .team .team-item .team-item-box-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    padding: 0px 60px;
+}
+
+.team-bg .team h3{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+
+/*===============================================
+feedback
+=================================================*/
+
+
+.feedback-bg{
+    height: 550px;
+    background: url(../images/feedback.jpg) no-repeat center / cover;
+    margin-top: 320px;
+    position: relative;
+    z-index: 1;
+}
+
+.feedback-bg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+    z-index: -1;
+}
+
+.feedback-bg .feedback{
+    height: 550px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.feedback-bg .feedback .feedback-box{
+    width: 800px;
+    height: 295px;
+    margin:0 auto;
+    background: url(../images/feedback-box.png) no-repeat center;
+    position: relative;
+}
+
+.feedback-bg .feedback .feedback-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    position: absolute;
+    top: 55px;
+    padding: 0 55px;
+}
+
+.feedback-bg .feedback .feedback-box .star{
+    position: absolute;
+    top: 155px;
+    left: 356px;
+}
+
+.feedback-bg .feedback .feedback-box h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #353535;
+    position: absolute;
+    top: 185px;
+    left: 350px;
+}
+
+.feedback-bg .feedback .feedback-box h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 210px;
+    left: 385px;
+}
+
+.feedback-bg .feedback .feedback-img img{
+    margin: 0 15px;
+}
+
+.feedback-bg .feedback .dot img{
+    margin: 30px 2px;
+}
+
+
+/*==================================================
+Get in touch
+====================================================*/
+
+.contact-bg{
+    height: 655px;
+    /* background-color: aqua; */
+}
+
+.contact-bg .contact{
+    height: 655px;
+    /* background-color: bisque; */
+    text-align: center;
+}
+
+.contact-bg .contact h1{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 80px;
+}
+
+.contact-bg .contact form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+
+.contact-bg .contact form .form-info{
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #353535;
+}
+
+.contact-bg .contact form .box{
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact-bg .contact form .box-1{
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.contact-bg .contact form textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #353535;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-bg .contact a{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #744fa0;
+    background-color: #744fa0;
+    padding:10px 20px;
+    border-radius: 5px;
+    transition: all ease 0.4s;
+}
+
+.contact-bg .contact a:hover{
+    background-color: white;
+    color: #744fa0;
+}
+
+
+
+/*====================================
+footer
+======================================*/
+
+.footer-bg{
+    height: 260px;
+    background-color: #353535;
+}
+
+.footer-bg .footer{
+    height: 260px;
+    text-align: center;
+}
+
+.footer-bg .footer .footer-logo{
+    margin-top: 30px;
+}
+
+.footer-bg .footer .footer-icon{
+    margin: 30px auto;
+    width: 290px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bg .footer .footer-icon a{
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    transition: all ease 0.4s;
+}
+
+.footer-bg .footer .footer-icon a i{
+    color: #353535;
+    font-size: 24px;
+}
+
+.footer-bg .footer .footer-icon a:hover{
+    background-color: #1da1f2;
+    color: white;
+}
+.footer-bg .footer .footer-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-bg .footer .footer-icon i:hover{
+    color: white;
+}
+
+.footer-bg .footer .footer-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.footer-bg .footer .footer-text p span{
+    color: #744fa0;
 }
