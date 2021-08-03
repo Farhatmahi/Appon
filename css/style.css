@@ -548,11 +548,18 @@ price
     margin-top: 60px;
 }
 
+
 .price-bg .price .price-item .price-item-box1{
     height: 60px;
     width: 270px;
     background-color: #f1f1f1;
     text-align: center;
+}
+
+.price-bg .price .price-item:hover .price-item-box1 h1{
+    background-color: #744fa0;
+    color: white;
+    transition: all ease 0.5s;
 }
 
 .price-bg .price .price-item .price-item-box1 h1{
@@ -632,117 +639,18 @@ price
     font-size: 14px;
     color: #353535;
     padding:10px 20px;
-    border-radius: 7%;
+    border-radius: 8px;
     position: absolute;
     left: 90px;
     bottom: 10px;
     background-color: #fff;
 }
 
-
-
-
-
-
-.price-bg .price .price-item-3{
-    width: 270px;
-    height: 438px;
-    /* background-color: #f1f1f1 */
-    border-radius: 5%;
-    overflow: hidden;
-    position: relative;
-    margin-top: 60px;
-}
-
-.price-bg .price .price-item-3 .price-item-box1{
-    height: 60px;
-    width: 270px;
+.price-bg .price .price-item:hover .price-item-box3 a{
     background-color: #744fa0;
-    text-align: center;
-}
-
-.price-bg .price .price-item-3 .price-item-box1 h1{
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 60px;
-    color: #fff;
-}
-
-.price-bg .price .price-item-3 .price-item-box2{
-    height: 160px;
-    width: 270px;
-    background-color: #fff;
-    position: relative;
-    text-align: center;
-    border: 1px solid #f1f1f1;
-}
-
-.price-bg .price .price-item-3 .price-item-box2 .eclipse{
-    width: 118px;
-    height: 118px;
-    /* background-color: lightgreen; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 3px solid #f1f1f1;
-    border-radius: 50%;
-}
-
-.price-bg .price .price-item-3 .price-item-box2 .eclipse h1{
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    margin-top: 10px;
-    color: #353535;
-}
-
-.price-bg .price .price-item-3 .price-item-box2 .eclipse h1 span{
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 47px;
-}
-
-.price-bg .price .price-item-3 .price-item-box2 .eclipse h2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    color: #353535;
-}
-
-.price-bg .price .price-item-3 .price-item-box3{
-    height: 188px;
-    width: 270px;
-    background-color: #f1f1f1;
-    padding-top: 30px;
-    text-align: center;
-    border-radius: 0% 0% 6% 6%;
-}
-
-.price-bg .price .price-item-3 .price-item-box3 p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #555555;
-    padding-bottom: 10px;
-}
-
-.price-bg .price .price-item-3 .price-item-box3 a{
+    color: white;
+    transition: all ease 0.5s;
     border: 1px solid #744fa0;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: #fff;
-    padding:10px 20px;
-    border-radius: 7%;
-    position: absolute;
-    left: 90px;
-    bottom: 10px;
-    background-color: #744fa0;
 }
 
 
